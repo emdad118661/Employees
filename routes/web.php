@@ -21,7 +21,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('employess/employeeIndex');
 });
-
 Route::get('/employeeOrderList',[employeeOrderListController::class,'showOrderList']);
 // Route::get('/employeeCustomerDetails',[employeeCustomerDetailsController::class,'showCustomerDetails']);
 Route::get('/orderDetails',[orderDetailsController::class,'orderDetails']);
