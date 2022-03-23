@@ -16,16 +16,13 @@
         <tbody>
             <tr>
                 <th scope="row">{{$customer->id}}</th>
-                <td>{{$customer->CNAME}}</td>
+                <td><a href="">{{$customer->CNAME}}</a></td>
                 <td>{{$customer->CEMAIL}}</td>
                 <td>{{$customer->CADDRESS}}</td>
                 <td>{{$customer->CPHONE}}</td>
                 <td>{{$customer->CPICTURE}}</td>
-                <td><a href='employeeProductEdit/{{ $customer->id }}' class="btn btn-success">Edit</a></td>
-                <td><a href='delete/{{ $customer->id }}' class="btn btn-danger">Delete</a></td>
             </tr>
         </tbody>
             @endforeach
     </table>
-
 @endsection
