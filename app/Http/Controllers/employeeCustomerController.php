@@ -8,7 +8,9 @@ use App\Models\Customer;
 class employeeCustomerController extends Controller
 {
     //
-    function details(){
-        return Customer::find(1);
-    }
+    public function details(){
+        $customers = Customer::all();
+        return view('employess.employeeCustomerDetails')
+        ->with('customers', $customers);
+     }
 }

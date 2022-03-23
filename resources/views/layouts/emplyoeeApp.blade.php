@@ -21,7 +21,7 @@
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/employeeOrderList">Orders</a>
+          <a class="nav-link active" aria-current="page" href="/customerDetails">Customers</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/employeeProductList">Products</a>

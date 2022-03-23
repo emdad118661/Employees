@@ -12,9 +12,9 @@
 <ul>
     <li>Order Management</li>
     <li>Product Management</li>
-    <li>Intarects with our customers</li>
-    <li></li>
-    <li></li>
+    <li>View Customer Details</li>
+    <li>View Order Details</li>
+    <!-- <li></li> -->
 </ul>
 <p class="text-center">Let's get into work, All the best!!</p>
 </div>
